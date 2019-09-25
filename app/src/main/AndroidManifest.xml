@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.kawig.tourismapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/be"
+        android:label="DONATIONS"
+        android:roundIcon="@mipmap/be"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".AdminHotel"></activity>
+        <activity android:name=".HotelDetailsActivity" />
+        <activity android:name=".NewHotelActivity" />
+        <activity android:name=".PlaceListActivity" />
+        <activity android:name=".PlaceDetailsActivity" />
+        <activity android:name=".AdminPlace" />
+        <activity android:name=".NewPlaceActivity" />
+        <activity android:name=".CarDetailsActivity" />
+        <activity android:name=".AdminCar" />
+        <activity android:name=".NewCarActivity" />
+        <activity android:name=".GuideDetailsActivity" />
+        <activity android:name=".CarListActivity" />
+        <activity android:name=".HotelListActivity" />
+        <activity android:name=".Home">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".CuHome" />
+        <activity android:name=".AdminGuide" />
+        <activity android:name=".Adhotel" />
+        <activity android:name=".Adcar" />
+        <activity android:name=".Adguide" />
+        <activity android:name=".Adplace" />
+        <activity android:name=".AdHome" />
+        <activity android:name=".Login" />
+        <activity android:name=".NewGuideActivity" />
+        <activity android:name=".GuideListActivity" />
+    </application>
+
+</manifest>

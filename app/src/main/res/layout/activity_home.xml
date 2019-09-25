@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bl2"
+    tools:context=".Home">
+
+  <ImageButton
+      android:id="@+id/ad2"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="16dp"
+      android:layout_marginLeft="16dp"
+      android:layout_marginTop="16dp"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:srcCompat="@android:drawable/btn_star_big_on" />
+
+  <TextView
+      android:id="@+id/welcome"
+      android:layout_width="168dp"
+      android:layout_height="53dp"
+      android:layout_marginStart="9dp"
+      android:layout_marginLeft="9dp"
+      android:layout_marginTop="28dp"
+      android:layout_marginEnd="108dp"
+      android:layout_marginRight="108dp"
+      android:layout_marginBottom="9dp"
+      android:text="Welcome"
+      android:textColor="@android:color/background_light"
+      android:textSize="36sp"
+      android:textStyle="bold"
+      app:layout_constraintBottom_toTopOf="@+id/be"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.93"
+      app:layout_constraintStart_toEndOf="@+id/be"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <TextView
+      android:id="@+id/be"
+      android:layout_width="199dp"
+      android:layout_height="49dp"
+      android:layout_marginStart="72dp"
+      android:layout_marginLeft="72dp"
+      android:layout_marginTop="88dp"
+      android:layout_marginEnd="54dp"
+      android:layout_marginRight="54dp"
+      android:layout_marginBottom="17dp"
+      android:text=" To Donate"
+      android:textColor="@android:color/background_light"
+      android:textSize="36sp"
+      android:textStyle="bold"
+      app:layout_constraintBottom_toTopOf="@+id/logo"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <ImageView
+      android:id="@+id/logo"
+      android:layout_width="394dp"
+      android:layout_height="327dp"
+      android:layout_marginStart="4dp"
+      android:layout_marginLeft="4dp"
+      android:layout_marginTop="136dp"
+      android:layout_marginEnd="4dp"
+      android:layout_marginRight="4dp"
+      android:layout_marginBottom="16dp"
+
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.5"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.0"
+      app:srcCompat="@drawable/be" />
+
+  <Button
+      android:id="@+id/go"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="148dp"
+      android:layout_marginLeft="148dp"
+      android:layout_marginTop="16dp"
+      android:layout_marginEnd="148dp"
+      android:layout_marginRight="148dp"
+      android:layout_marginBottom="16dp"
+      android:text="Go"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+
+      app:layout_constraintTop_toBottomOf="@+id/logo" />
+
+  <ImageButton
+      android:id="@+id/ad"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="20dp"
+      android:layout_marginLeft="20dp"
+      android:layout_marginTop="16dp"
+      android:layout_marginEnd="16dp"
+      android:layout_marginRight="16dp"
+      android:layout_marginBottom="12dp"
+      app:layout_constraintBottom_toTopOf="@+id/be"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toEndOf="@+id/welcome"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="1.0"
+      app:srcCompat="@android:drawable/btn_star_big_on" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

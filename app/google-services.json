@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "976670017681",
+    "firebase_url": "https://tourismapp-f9d2c.firebaseio.com",
+    "project_id": "tourismapp-f9d2c",
+    "storage_bucket": "tourismapp-f9d2c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:976670017681:android:2f4a3d872c5d7e3c761730",
+        "android_client_info": {
+          "package_name": "com.kawig.tourismapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "976670017681-q68ip6orffa897i5mv4rdchinm2sc93p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kawig.tourismapp",
+            "certificate_hash": "78bc04e0c70655bd30e028957f8c7b65116aa96d"
+          }
+        },
+        {
+          "client_id": "976670017681-djvgehteidt4v8ob3ht179j4jj0k97t5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4qDWxcbaKn9S8YHVEGccR482ihZ9au_U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "976670017681-djvgehteidt4v8ob3ht179j4jj0k97t5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

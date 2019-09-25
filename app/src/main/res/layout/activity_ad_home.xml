@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bl2"
+    tools:context=".AdHome">
+
+  <TextView
+      android:id="@+id/be2"
+      android:layout_width="309dp"
+      android:layout_height="70dp"
+      android:layout_marginStart="56dp"
+      android:layout_marginLeft="56dp"
+      android:layout_marginTop="24dp"
+      android:text="      DONATIONS"
+      android:textAllCaps="true"
+      android:textColor="@android:color/background_light"
+      android:textSize="36sp"
+      android:textStyle="bold"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <ImageView
+      android:id="@+id/imageView"
+      android:layout_width="150dp"
+      android:layout_height="140dp"
+      android:layout_marginStart="16dp"
+      android:layout_marginLeft="16dp"
+      android:layout_marginTop="2dp"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/be2"
+      app:srcCompat="@drawable/yhf" />
+
+  <ImageView
+      android:id="@+id/imageView4"
+      android:layout_width="150dp"
+      android:layout_height="140dp"
+      android:layout_marginStart="16dp"
+      android:layout_marginLeft="16dp"
+      android:layout_marginBottom="76dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:srcCompat="@drawable/a1" />
+
+  <ImageView
+      android:id="@+id/imageView5"
+      android:layout_width="150dp"
+      android:layout_height="140dp"
+      android:layout_marginEnd="28dp"
+      android:layout_marginRight="28dp"
+      android:layout_marginBottom="76dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:srcCompat="@drawable/a4" />
+
+  <Button
+      android:id="@+id/Apl"
+      style="@style/Widget.AppCompat.Button.Colored"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="48dp"
+      android:layout_marginLeft="48dp"
+      android:layout_marginTop="236dp"
+      android:text="Education"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <Button
+      android:id="@+id/Aho"
+      style="@style/Widget.AppCompat.Button.Colored"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="236dp"
+      android:layout_marginEnd="29dp"
+      android:layout_marginRight="29dp"
+      android:text="Home Appliance"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <Button
+      android:id="@+id/Acr"
+      style="@style/Widget.AppCompat.Button.Colored"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="40dp"
+      android:layout_marginLeft="40dp"
+      android:layout_marginBottom="28dp"
+      android:text="SERVICES"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintStart_toStartOf="parent" />
+
+  <Button
+      android:id="@+id/Agu"
+      style="@style/Widget.AppCompat.Button.Colored"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginEnd="64dp"
+      android:layout_marginRight="64dp"
+      android:layout_marginBottom="28dp"
+      android:text="MONEY"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent" />
+
+  <ImageView
+      android:id="@+id/imageView7"
+      android:layout_width="150dp"
+      android:layout_height="140dp"
+      android:layout_marginTop="96dp"
+      android:layout_marginEnd="28dp"
+      android:layout_marginRight="28dp"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:srcCompat="@drawable/a2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
